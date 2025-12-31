@@ -270,7 +270,7 @@ function copyReading(button) {
 ## 效果预览
 <img alt="效果预览" src="pic/1.png" />
 
-因为使用的字段不同，所以可以与[AI提问](github.com/abc123sm/anki_aitiwen)共存（一个是 CF_aiGenerate，一个是 aiGenerate）
+因为使用的字段不同，所以可以与[AI提问](https://github.com/abc123sm/anki_aitiwen)共存（一个是 CF_aiGenerate，一个是 aiGenerate）
 <img alt="共存" src="pic/3.png" />
 
 ## 插件设置参考
