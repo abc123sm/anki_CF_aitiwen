@@ -268,24 +268,23 @@ function copyReading(button) {
 
 
 ## 效果预览
-<img alt="效果预览" src="pic/1.png" />
+<img alt="效果预览" src="https://github.com/abc123sm/anki_CF_aitiwen/raw/main/pic/1.png" />
 
 因为使用的字段不同，所以可以与[AI提问](https://github.com/abc123sm/anki_aitiwen)共存（一个是 CF_aiGenerate，一个是 aiGenerate）
-<img alt="共存" src="pic/3.png" />
+<img alt="共存" src="https://github.com/abc123sm/anki_CF_aitiwen/raw/main/pic/3.png" />
 
 ## 插件设置参考
 ### CF AI worker
-<img alt="CF AI worker" src="pic/4.png" />
+<img alt="CF AI worker" src="https://github.com/abc123sm/anki_CF_aitiwen/raw/main/pic/4.png" />
 
 ### 反代API
-<img alt="反代API" src="pic/2.png" />
+<img alt="反代API" src="https://github.com/abc123sm/anki_CF_aitiwen/raw/main/pic/2.png" />
 
 ## 模型
-@cf/qwen/qwen3-30b-a3b-fp8
-
 ### CF 模型价格
-每天有免费0.11美元额度，反正对我来说是够够的
-https://developers.cloudflare.com/workers-ai/platform/pricing/
+每天有免费0.11美元额度，反正对我来说是够够的  
+1. worker AI model页面
+2. [CF的文档](https://developers.cloudflare.com/workers-ai/platform/pricing/)
 
 ### 模型个人使用体验
 #### 便宜
@@ -318,8 +317,8 @@ https://developers.cloudflare.com/workers-ai/platform/pricing/
 
 
 #### 千万不要用  
-速度好慢，结果乱给，不要用推理模型
-`@cf/deepseek-ai/deepseek-r1-distill-qwen-32b`
+速度好慢，结果乱给，不要用推理模型  
+`@cf/deepseek-ai/deepseek-r1-distill-qwen-32b`  
 `@cf/mistral/mistral-7b-instruct-v0.1`
 
 
