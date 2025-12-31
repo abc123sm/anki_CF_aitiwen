@@ -1,0 +1,9 @@
+{
+    "package": "CF_AItiwen",
+    "name": "CF_AI提问",
+    "version": "1.0.0",
+    "author": "ABC123SM",
+    "description": "这是一个Anki插件，允许您在卡片复习时一键调用AI（通过Cloudflare Workers或其他API）并将结果自动填入指定字段（需要配合1020366288插件）。",
+    "homepage": "https://github.com/abc123sm/anki_CF_aitiwen",
+    "conflicts": []
+}

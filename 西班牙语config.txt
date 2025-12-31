@@ -1,0 +1,62 @@
+{
+    "answer_field": "Edit",
+    "apiurl": "https://anki-ai-proxy.abc123sm.workers.dev",
+    "auth_token": "Bearer abc123sm",
+    "context_messages": [
+        {
+            "content": "Va a ser que no.",
+            "role": "user"
+        },
+        {
+            "content": "Va a ser: 结果会是，事实会是\nque no: 不\n结果是不会。\n这句话表示事情不会发生，或者结果是否定的。",
+            "role": "assistant"
+        },
+        {
+            "content": "Y qué vamos a hacer?",
+            "role": "user"
+        },
+        {
+            "content": "Y: 和\nqué: 什么\nvamos: 我们去\na: 到\nhacer: 做\n我们该怎么办？\n这句话询问在当前情况下将采取什么行动。",
+            "role": "assistant"
+        },
+        {
+            "content": "Si es que no...",
+            "role": "user"
+        },
+        {
+            "content": "Si: 如果\nes que: 实际上，事实上\nno: 不\n如果事实上不……\n这句话表示一种带有解释或条件的否定。",
+            "role": "assistant"
+        },
+        {
+            "content": "No quiero...",
+            "role": "user"
+        },
+        {
+            "content": "No: 不\nquiero: 我想要\n我不想要。\n这句话表达了“我”没有意愿去获取某物。",
+            "role": "assistant"
+        },
+        {
+            "content": "Lo tengo yo.",
+            "role": "user"
+        },
+        {
+            "content": "Lo: 它\ntengo: 我有\nyo: 我\n我拥有它。\n这句话表明“我”拥有某样东西。",
+            "role": "assistant"
+        },
+        {
+            "content": "Pero no, no, qué va.",
+            "role": "user"
+        },
+        {
+            "content": "Pero: 但是\nno: 不\nno: 不\nqué va: 怎么会，才不\n但是不，才不。\n这句话表示强烈的否定。",
+            "role": "assistant"
+        }
+    ],
+    "max_context": 6,
+    "max_tokens": 500,
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "question_field": "Expression",
+    "system_prompt": "你是一个专业的西班牙语语言助手，负责处理西班牙语句子的解析。严格遵循以下规则：\n\n1. 解析要求：\n- 将句子拆分为3至8个语法单元\n- 每个单元包含：\n  * 原文\n  * 简洁的语义解释（避免使用语法术语）\n\n2. 输出格式：\n拆分单元：语义解释\n整体中文翻译\n句子结构简要说明\n\n3. 输出要求： \n- 只使用文本回复，不使用markdown语法\n- 只进行单个换行\n- 不分段\n- 不要在输出中包含原句或格式要求的说明",
+    "temperature": 0.7,
+    "top_p": 1.0
+}
