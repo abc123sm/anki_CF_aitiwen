@@ -23,7 +23,8 @@
 2.  **获取 API Key**：
     *   参考下方的 **CF AI worker部署说明** 部署一个自己的CF AI worker
     *   访问 [qwen-free-api](https://github.com/LLM-Red-Team/qwen-free-api)部署反代API。
-    *   PS. 其他反代AI大概也行，不过该项目被投毒了，需要自己删除有毒的代码构建
+    *   PS1. 其他反代AI大概也行
+    *   PS2. 这些反代项目都被投毒了，需要自己删除有毒的代码构建
 
 
 3.  **配置插件**：
