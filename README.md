@@ -16,7 +16,7 @@
 
 ## 安装与配置
 1.  **安装插件与依赖插件**：
-    *   通过 [AnkiWeb](https://ankiweb.net/shared/info/还没发) 页面下载，或使用代码 `[还没发]` 安装。
+    *   通过 [AnkiWeb](https://ankiweb.net/shared/info/8664763) 页面下载，或使用代码 `[8664763]` 安装。
     *   或通过 [Github releases](https://github.com/abc123sm/anki_CF_aitiwen/releases) 页面下载，并解压至anki插件目录。
     *   通过 [AnkiWeb](https://ankiweb.net/shared/info/1020366288) 页面下载，或使用代码 `[1020366288]` 安装依赖插件Edit Field During Review。
 
@@ -318,7 +318,7 @@ function copyReading(button) {
 
 
 #### 千万不要用  
-速度好慢，结果乱给，不要用推理模型  
+速度好慢，结果乱给，不要用推理模型，不适合咱们场景  
 `@cf/deepseek-ai/deepseek-r1-distill-qwen-32b`  
 `@cf/mistral/mistral-7b-instruct-v0.1`
 
@@ -326,7 +326,7 @@ function copyReading(button) {
 ## 问题反馈
 
 如果你遇到任何问题或有功能建议，欢迎到本项目的 [GitHub Issues](https://github.com/abc123sm/anki_CF_aitiwen/issues) 页面提交。  
-或者 [这个TG频道](https://t.me/Subs2srs/178)。
+或者 [这个TG频道](https://t.me/Subs2srs/179)。
 
 ## 更新
 
